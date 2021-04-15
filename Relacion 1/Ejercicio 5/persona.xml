@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet tpe="text/xsl" href="persona.xsl"?>
+<listado>
+  <persona>
+    <nombre>Rafa</nombre>
+    <apellido>Lluch Navarro</apellido>
+  </persona>
+  <persona>
+    <nombre>Jose</nombre>
+    <apellido>Moreno Ruiz</apellido>
+  </persona>
+  <persona>
+    <nombre>Manuel</nombre>
+    <apellido>Zamora Ruiz</apellido>
+  </persona>
+  <persona>
+    <nombre>Pepito</nombre>
+    <apellido>Andres Ruiz</apellido>
+  </persona>
+  <persona>
+    <nombre>Ramon</nombre>
+    <apellido>Nadal Ruiz</apellido>
+  </persona>
+  <persona>
+    <nombre>José</nombre>
+    <apellido>Zaragoza Ramos</apellido>
+  </persona>
+</listado>

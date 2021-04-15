@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="libro.xsl"?>
+<libro>
+<autor>
+  <nombre>Pere</nombre>
+  <apellido>Garcia</apellido>
+</autor>
+<autor>
+  <apellido>Torres</apellido>
+</autor>
+</libro>
+
+<!-- En cada nodo recorrido, el procesador aplica o no alguna plantilla:
+  Si a un nodo no se le puede aplicar ninguna plantilla, su contenido se
+    incluye en el documento final (el texto del nodo, no el de los nodos 
+    descendientes). A continuación, el procesador recorre sus nodos hijos.
+  Si a un nodo se le puede aplicar una plantilla, se aplica la plantilla. 
+    La plantilla puede generar texto que se incluye en el documento final.
+    En principio, el procesador no recorre sus nodos hijos, salvo que la
+    plantilla indique al procesador que sí que deben recorrerse los nodos hijos.-->
+    
+    <!--A autor se le puede aplicar una plantilla? ->si
+      Se le aplica y ya no se recorren los hijos, 'nombre' y
+      'apellido' por lo que la transformación es 'B'.
+      En el segundo elemento 'autor ocurrelo mismo siendo
+      la transformación final B B-->
+    
+    

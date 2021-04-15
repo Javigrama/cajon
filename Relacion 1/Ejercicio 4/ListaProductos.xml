@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet tpe="text/xsl" href="ListaProductos.xsl"?>
+<ListaProductos>
+<Titulo>Series XML</Titulo>
+<Producto>
+  <Nombre>Unidad XML</Nombre>
+  <PrecioUd>200</PrecioUd>
+</Producto>
+
+</ListaProductos>

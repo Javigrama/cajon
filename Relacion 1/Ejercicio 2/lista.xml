@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet tpe="text/xsl" href="lista.xsl"?>
+<lista>
+  <persona>
+    <nombre>Pere</nombre>
+    <apellido>Garcia</apellido>
+  </persona>
+  <persona>
+    <apellido>Garcia</apellido>
+  </persona>
+</lista>
+
+<!--Se le puede aplicar a 'lista' una plantilla-> NO.
+Se extraería el texto pero no existe.
+  Recorremos sus hijos: 
+    Se le puede aplicar al 1er elemento 'persona' una plantilla?
+    -> SI: se le aplica la plantilla que define a su vez
+    una plantilla para los elementos 'nombre'. Y ya no 
+    se recorren sus hijos por lo que los elementos 'nombre'
+    y 'apellido' quedan englobados dentro de la transformación
+    de 'persona'.
+    Continúa el procesamiento:
+    Se le puede aplicar una plantilla al 2º elemento persona?
+    ->SI: se le aplica la plantilla que define el elemento nombre.
+    Como no existe ese elemento en el segundo elemento 'persona',
+    la transformación no se traduce en A-->
